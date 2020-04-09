@@ -1,0 +1,3 @@
+﻿  소스.cpp
+c:\users\kgca3637i\source\repos\practicecplusplus\prototype_pattern\소스.cpp(8): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Prototype_Pattern.vcxproj -> C:\Users\kgca3637i\source\repos\PracticeCplusplus\Debug\Prototype_Pattern.exe

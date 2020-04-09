@@ -1,0 +1,6 @@
+﻿  Monster.cpp
+  Spawner.cpp
+  소스.cpp
+c:\users\kgca3637i\source\repos\practicecplusplus\prototypepattern\소스.cpp(5): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
+  PrototypePattern.vcxproj -> C:\Users\kgca3637i\source\repos\PracticeCplusplus\Debug\PrototypePattern.exe

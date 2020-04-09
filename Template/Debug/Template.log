@@ -1,0 +1,7 @@
+﻿  소스.cpp
+c:\users\kgca3637i\source\repos\practicecplusplus\template\소스.cpp(4): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+c:\users\kgca3637i\source\repos\practicecplusplus\template\jtemplate.h(28): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  c:\users\kgca3637i\source\repos\practicecplusplus\template\jtemplate.h(19): note: 클래스 템플릿 멤버 함수 'JTemplate<int>::JTemplate(int,int)'을(를) 컴파일하고 있습니다.
+  c:\users\kgca3637i\source\repos\practicecplusplus\template\소스.cpp(5): note: 컴파일 중인 함수 템플릿 인스턴스화 'JTemplate<int>::JTemplate(int,int)'에 대한 참조를 확인하십시오.
+  c:\users\kgca3637i\source\repos\practicecplusplus\template\소스.cpp(5): note: 컴파일 중인 클래스 템플릿 인스턴스화 'JTemplate<int>'에 대한 참조를 확인하세요.
+  Template.vcxproj -> C:\Users\kgca3637i\source\repos\PracticeCplusplus\Debug\Template.exe
