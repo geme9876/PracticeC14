@@ -76,9 +76,11 @@ int main()
 	Elision B(A);
 	Elision C;
 	Elision D(std::move(A));
+	//이동 생성자 호출 이후  pdata 는 nullptr이 된다
 	Elision E;
 
 	C = B;
+	
 	E = std::move(A);
 	
 
