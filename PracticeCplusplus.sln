@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "findAll", "findAll\findAll.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HashMap", "HashMap\HashMap.vcxproj", "{B9549745-F08B-4BFF-96EE-8F4D476E22E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread", "Thread\Thread.vcxproj", "{4AA176AA-C6A4-4611-AB37-44E00AD2F039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{B9549745-F08B-4BFF-96EE-8F4D476E22E8}.Release|x64.Build.0 = Release|x64
 		{B9549745-F08B-4BFF-96EE-8F4D476E22E8}.Release|x86.ActiveCfg = Release|Win32
 		{B9549745-F08B-4BFF-96EE-8F4D476E22E8}.Release|x86.Build.0 = Release|Win32
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Debug|x64.ActiveCfg = Debug|x64
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Debug|x64.Build.0 = Debug|x64
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Debug|x86.Build.0 = Debug|Win32
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Release|x64.ActiveCfg = Release|x64
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Release|x64.Build.0 = Release|x64
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Release|x86.ActiveCfg = Release|Win32
+		{4AA176AA-C6A4-4611-AB37-44E00AD2F039}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

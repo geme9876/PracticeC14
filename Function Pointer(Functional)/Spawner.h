@@ -11,7 +11,7 @@ public:
 	~Spawner();
 
 	virtual Monster* spawnMonster(Monster* a) {
-		return spawn_(a);
+		return spawn_(*a);
 	}
 protected:
 	SpawnCallback spawn_;
