@@ -150,7 +150,7 @@ namespace JHash {
 		mBuckets.resize(src.mBuckets.size());
 		for (auto& bucket : src.mBuckets)
 		{
-			for (auto& elem : bucket)
+			for (auto elem : bucket)
 			{
 				insert(elem);
 			}
