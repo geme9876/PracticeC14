@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{250256AC-232E-4B1B-876F-F326F53B3C89}</ProjectGuid>
-    <RootNamespace>Astar</RootNamespace>
+    <ProjectGuid>{D60F5FBA-D702-48DE-8158-A7238422ED16}</ProjectGuid>
+    <RootNamespace>BehaviorTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,11 +115,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AStar.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="TaskNode.h" />
+    <ClInclude Include="BehaviorTree.h" />
+    <ClInclude Include="BTNode.h" />
+    <ClInclude Include="CompositeNode.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="Sequence.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AStar.h" />
+    <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="TaskNode.cpp" />
+    <ClCompile Include="BehaviorTree.cpp" />
+    <ClCompile Include="BTNode.cpp" />
+    <ClCompile Include="CompositeNode.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Sequence.cpp" />
+    <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
