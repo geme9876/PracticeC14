@@ -118,6 +118,15 @@
   <ItemGroup>
     <ClCompile Include="1003.cpp" />
     <ClCompile Include="9095.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="기지국.cpp" />
+    <ClCompile Include="멀리뛰기.cpp" />
+    <ClCompile Include="사천성.cpp" />
+    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="입국심사.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
